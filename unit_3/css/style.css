@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Inknut+Antiqua|Roboto&display=swap');
 
 body {
-	background: url("https://image.freepik.com/free-vector/memphis-pattern-background_53876-85418.jpg") opacity:0.5;
+	background: url("https://image.freepik.com/free-vector/memphis-pattern-background_53876-85418.jpg");
 	background-repeat: repeat;
 	background-size: auto;
-	font-family: font-family: 'Roboto', sans-serif;
-	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
 }
 
 h1 {
 	font-family: 'Inknut Antiqua', serif;
-	font-size:50px;
+	font-size:75px;
 }
 
 h2 {
@@ -18,27 +18,30 @@ h2 {
 }
 
 p {
-	font-family: font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	color: #00000;
 	text-align: left;
 }
 
 a {
-	text-decoration: underline overline wavy #002fa7;
+	text-decoration: underline wavy #002fa7;
 }
 
 li {
 	font-family: font-family: 'Roboto', sans-serif;
 	color: #00000;
+	font-size: 20px;
 }
 
 ul {
 	list-style-image: url('images/crescentmoon.png');
+	font-size: 20px;
 }
 
 ol {
 	list-style-type: lower-roman;
+	font-size: 20px;
 }
 
 img {
@@ -48,4 +51,5 @@ img {
 
 #slogan {
 	font-style: italic;
+	font-size:30px;
 }
