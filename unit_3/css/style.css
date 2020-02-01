@@ -1,31 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Inknut+Antiqua|Roboto&display=swap');
 
 body {
-	background: url("https://image.freepik.com/free-vector/memphis-pattern-background_53876-85418.jpg");
+	background: #fef9f5 url('../images/15transparent_memphis_seamless_pattern.png');
 	background-repeat: repeat;
 	background-size: auto;
+	background-attachment: fixed;
 	font-family: 'Roboto', sans-serif;
 	color: #000000;
+	margin: 175px;
 }
 
 h1 {
 	font-family: 'Inknut Antiqua', serif;
 	font-size:75px;
+	line-height: 50px;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 25px;
+	line-height: 25px;
+	font-style: bold;
 }
 
 p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
+	line-height: 25px;
 	color: #00000;
 	text-align: left;
 }
 
 a {
-	text-decoration: underline wavy #002fa7;
+	text-decoration: underline;
+}
+
+.contact {
+	text-decoration: none;
+	font-style: bold;
+	color: #696969;
 }
 
 li {
@@ -35,7 +47,7 @@ li {
 }
 
 ul {
-	list-style-image: url('images/crescentmoon.png');
+	list-style: url('../images/bullet_triangle_black.png');
 	font-size: 20px;
 }
 
@@ -45,11 +57,31 @@ ol {
 }
 
 img {
-	border: 5px dashed #002fa7;
+	border: 10px dashed #002fa7;
+	padding: 5px;
 	width: 500px;
+}
+
+.center {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 75%;
 }
 
 #slogan {
 	font-style: italic;
+	font-weight: 900;
 	font-size:30px;
+	line-height: 35px;
+}
+
+hr {
+	border-top: 2px dotted #696969;
+}
+
+#footer {
+	font-size:15px;
+	color:#696969;
+	text-align: center;
 }
