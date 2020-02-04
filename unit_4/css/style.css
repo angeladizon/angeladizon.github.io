@@ -7,13 +7,13 @@ body {
 	background-attachment: fixed;
 	font-family: 'Roboto', sans-serif;
 	color: #000000;
-	margin: 175px;
+	margin: 7em;
 }
 
 h1 {
 	font-family: 'Inknut Antiqua', serif;
 	font-size:75px;
-	line-height: 50px;
+	line-height: 75px;
 }
 
 h2 {
