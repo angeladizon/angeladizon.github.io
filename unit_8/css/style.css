@@ -188,6 +188,10 @@ hr {
 		padding: 1%;
 	}
 
+	h1 {
+		text-align: center;
+	}
+
 	.left, .right {
 		width: 90%;
 		float: none;
