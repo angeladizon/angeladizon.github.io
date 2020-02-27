@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Inknut+Antiqua|Roboto&display=swap');
+
+body {
+	background: rgb(238,174,202);
+	background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,0,255,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(255,165,0,.8), rgba(0,0,255,0) 70.71%);
+	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #000000;
+	margin: 5%;
+}
+
+header {
+    padding: 0%;
+}
+
+nav {
+    padding: 5%;
+    text-align: right;
+}
+
+nav a {	
+	text-decoration: none;
+	margin: 1.8em;
+}
+
+div {
+	max-width: 700px;
+	margin: auto;
+}
+
+section {
+}
+
+article {
+	padding-bottom: 5%;
+}
+
+footer {
+    padding: 20px;	
+}
+
+h1 {
+	font-family: 'Inknut Antiqua', serif;
+	font-size:4em;
+	line-height: 1.5em;
+}
+
+h2 {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	font-weight: 800;
+}
+
+h3 {
+	font-size: 1em;
+	line-height: 1em;
+	font-style: bold;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #00000;
+	text-align: left;
+}
+
+a {
+	text-decoration: underline;
+	color:#000000;
+	font-size: 1em;
+}
+
+a:hover {
+	color:#002fa7;
+	text-decoration: underline wavy;
+}
+
+a:visited {
+  text-decoration: line-through;
+}
+
+.contact {
+	text-decoration: none;
+	font-style: bold;
+	color: #696969;
+}
+
+li {
+	font-family: font-family: 'Roboto', sans-serif;
+	color: #00000;
+	font-size: 1em;
+}
+
+ul {
+	list-style-type: square;
+	font-size: 1em;
+}
+
+ol {
+	list-style-type: lower-roman;
+	font-size: 1em;
+}
+
+img {
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+	width: 100%;
+}
+
+hr {
+	border-top: 1px solid #888888;
+}
+
+.wrapper {
+	width: 90%;
+	padding: 5%;
+	background-color: rgba(235,235,235,.95);
+}
+
+.center {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.two_column {
+}
+
+.left {
+    float: left;
+    width: 45%;
+}
+
+.right {
+    float: right;
+    width: 45%;
+}
+
+#slogan {
+	font-weight: 550;
+	font-size: 1.3em;
+	line-height: 1.1em;
+	padding-left:10%;
+	padding-bottom:10%;
+}
+
+#caption {
+	font-size: .8em;
+	color:#696969;
+}
+
+#footer {
+	font-size:.8em;
+	color:#696969;
+	text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+
+	nav {
+		text-align: center;
+		float: none;
+	}
+
+	#slogan {
+		padding:0%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.left, .right {
+		width: 90%;
+		float: none;
+	}
+}
