@@ -176,6 +176,10 @@ hr {
 		float: none;
 	}
 
+	h1 {
+		text-align: center;
+	}
+
 	#slogan {
 		padding:0%;
 	}
@@ -186,10 +190,6 @@ hr {
 		text-align: center;
 		float: none;
 		padding: 1%;
-	}
-
-	h1 {
-		text-align: center;
 	}
 
 	.left, .right {
