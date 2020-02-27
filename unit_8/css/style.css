@@ -185,12 +185,8 @@ hr {
 	nav {
 		text-align: center;
 		float: none;
+		padding: 1%;
 	}
-
-	nav a {	
-	text-decoration: none;
-	margin: .5em;
-}
 
 	.left, .right {
 		width: 90%;
