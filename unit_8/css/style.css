@@ -171,7 +171,6 @@ hr {
 }
 
 @media only screen and (max-width: 800px) {
-
 	nav {
 		text-align: center;
 		float: none;
@@ -183,6 +182,16 @@ hr {
 }
 
 @media only screen and (max-width: 500px) {
+	nav {
+		text-align: center;
+		float: none;
+	}
+
+	nav a {	
+	text-decoration: none;
+	margin: .5em;
+}
+
 	.left, .right {
 		width: 90%;
 		float: none;
