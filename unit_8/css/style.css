@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    padding: 0%;
+    padding-bottom: 0%;
 }
 
 nav {
@@ -36,6 +36,7 @@ section {
 
 article {
 	padding-bottom: 5%;
+	line-height: 1.4em;
 }
 
 footer {
@@ -51,7 +52,7 @@ h1 {
 h2 {
 	font-size: 1.3em;
 	line-height: 1.3em;
-	font-weight: 800;
+	font-weight: 900;
 }
 
 h3 {
@@ -63,7 +64,6 @@ h3 {
 p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
-	line-height: 1.4em;
 	color: #00000;
 	text-align: left;
 }
@@ -76,11 +76,10 @@ a {
 
 a:hover {
 	color:#002fa7;
-	text-decoration: underline wavy;
 }
 
 a:visited {
-  text-decoration: line-through;
+  text-decoration-line: line-through;
 }
 
 .contact {
@@ -114,6 +113,10 @@ img {
 
 hr {
 	border-top: 1px solid #888888;
+}
+
+aside {
+	line-height: .5em;
 }
 
 .wrapper {
@@ -171,6 +174,9 @@ hr {
 }
 
 @media only screen and (max-width: 800px) {
+	header {
+    padding-bottom: 10%;
+}
 	nav {
 		text-align: center;
 		float: none;
