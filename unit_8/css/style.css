@@ -26,6 +26,13 @@ nav a {
 	margin: 1.8em;
 }
 
+nav a:hover {	
+	text-decoration: none;
+	margin: 1.8em;
+	color: #000000;
+	background-color: yellow;
+}
+
 div {
 	max-width: 700px;
 	margin: auto;
@@ -76,6 +83,7 @@ a {
 
 a:hover {
 	color:#002fa7;
+	font-weight: 600;
 }
 
 a:visited {
@@ -180,6 +188,7 @@ aside {
 	nav {
 		text-align: center;
 		float: none;
+		font-size:.75em;
 	}
 
 	h1 {
