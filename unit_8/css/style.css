@@ -188,7 +188,7 @@ aside {
 	nav {
 		text-align: center;
 		float: none;
-		font-size:.95em;
+		font-size:1em;
 	}
 
 	h1 {
@@ -205,11 +205,31 @@ aside {
 		text-align: center;
 		float: none;
 		padding: 1%;
-		font-size:.80em;
+		font-size:1em;
+	}
+
+	nav a {	
+	text-decoration: none;
+	margin: 0.8em;
+	}
+
+	nav a:hover {	
+	text-decoration: none;
+	margin: 0.8em;
+	color: #000000;
+	background-color: yellow;
+	}
+
+	h1 {
+	font-size:3em;
+	}
+
+	#slogan {
+	font-size: 1.2em;
 	}
 
 	.left, .right {
 		width: 90%;
 		float: none;
 	}
-}
+	}
